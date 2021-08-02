@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Loop 2 - Challenge</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./css/normalize.css">
+  <!-- <link rel="stylesheet" href="./css/main.css" /> -->
+  <link rel="stylesheet" href="./css/styles.min.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+
+  <header class="site__header header container">
+
+    <div class="header-wrapper">
+
+      <a href="#" class="site__logo">
+        <img src="./img/logo.png" alt="Site logo" class="site__logo-image" width="54" height="50">
+      </a>
+
+      <form action="http://echo.htmlacademy.ru" target="_blank" method="POST" enctype="multipart/form-data"
+        class="header__form form-search">
+
+
+        <input class="header__search-input" type="search" name="search" id="search" placeholder="Search">
+
+        <img src="./img/search.png" alt="search image" class="search-image" width="24" height="24">
+
+      </form>
+
+      <!-- NAVBAR -->
+
+      <nav class="header__navbar navbar">
+
+        <ul class="navbar__list list-pages">
+
+          <li class="navbar__item main-item">
+            <a class="main__link main__link-passive" href="#">Home</a>
+          </li>
+
+          <li class="navbar__item main-item">
+            <a class="main__link main__link-passive" href="#">Profile</a>
+          </li>
+
+          <li class="navbar__item main-item">
+            <a class="main__link main__link-passive" href="#">Connections</a>
+          </li>
+
+          <li class="navbar__item main-item">
+            <a class="main__link main__link-passive" href="#">Interest</a>
+          </li>
+
+          <li class="navbar__item main-item">
+            <a class="main__link main__link-active " href="#">Try Premium</a>
+          </li>
+
+        </ul>
+
+        <div class="header__communication">
+
+          <ul class="communication__list list-connection">
+
+            <li class="list-connection__item">
+              <a class="list-connection__link" href="#">
+                <img class="list-connection__image" src="./img/message.png" alt="massage icon" width="20" height="20">
+              </a></li>
+
+            <li class="list-connection__item">
+              <a class="list-connection__link" href="#">
+                <img class="list-connection__image" src="./img/bell.png" alt="bell icon" width="20" height="20">
+              </a></li>
+
+            <li class="list-connection__item">
+              <a class="list-connection__link" href="#">
+                <img class="list-connection__image" src="./img/add.png" alt="add icon" width="20" height="20">
+              </a></li>
+
+          </ul>
+
+        </div>
+
+        <a class="header-user" href="#">
+          <img class="header-user__image" src="./img/avatar.jpg" alt="user image" width="45" height="45">
+        </a>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+  <div class="main__pages container">
+
+    <ul class="main__pages-list">
+
+      <li class="main__pages-items">
+        <a href="" class="main__pages-link1">
+          Posts
+        </a>
+      </li>
+
+      <li class="main__pages-items">
+        <a href="#" class="main__pages-link">
+          Background
+        </a>
+      </li>
+
+      <li class="main__pages-items">
+        <a href="" class="main__pages-link">
+          Recomendation
+        </a>
+      </li>
+
+      <li class="main__pages-items">
+        <a href="" class="main__pages-link">
+          Following
+        </a>
+      </li>
+
+    </ul>
+
+  </div>
+
+
+
+  <div class="main-wrapper">
+
+    <main class="site__main container">
+
+      <!-- FIRST CONTAINER -->
+
+      <div class="container1">
+
+        <img src="./img/bill-gates-avatar.png" alt="Bill Gates image" class="avatar-image" width="120" height="120">
+
+        <h2 class="avatar-name">Bill Gates</h2>
+
+        <p class="avatar-info">Microsoft Founder</p>
+        <p class="area">Great Seattle Area</p>
+
+        <button class="follow-button" type="submit">
+          Follow
+        </button>
+
+        <button class="connect-button" type="submit">
+          Connect ▾
+        </button>
+
+        <table class="info__table table">
+
+          <tr class="table__row">
+
+            <td class="table__data">
+
+              <p class="connect-number">
+                200
+              </p>
+
+              <p class="connect-info">
+                connecti...
+              </p>
+
+            </td>
+
+            <td class="table__data">
+
+              <p class="folowers-number">
+                1.9M
+              </p>
+
+              <p class="folowers-info">
+                folowers
+              </p>
+
+            </td>
+
+          </tr>
+
+        </table>
+
+
+        <div class="site-linkeding">
+
+          <img src="./img/link-image.png" alt="Link image" width="24" height="24" class="avatar-link-image">
+
+          <a href="#" class="avatar-link">
+            linkeding.com/in/billgat...
+          </a>
+
+        </div>
+
+        <div class="site-bill-gates">
+
+          <img src="./img/globe.png" alt="Globe image" width="24" height="24" class="avatar-link-image">
+
+          <a href="#" class="avatar-link">
+            billgates.com
+          </a>
+
+        </div>
+
+        <div class="pdf-pages">
+
+          <img src="./img/router.png" alt="router image" width="24" height="16" class="avatar-link-image3">
+
+          <a href="#" class="avatar-link">
+            Export pages as PDF
+          </a>
+
+        </div>
+
+      </div>
+
+      <!-- SECOND CONTAINER -->
+
+      <div class="container2">
+
+        <!-- POSTS SECTION -->
+
+        <section class="posts__section posts">
+
+          <div class="posts-left">
+
+            <h2 class="posts-title">
+              posts
+            </h2>
+
+          </div>
+
+          <div class="posts-right">
+
+            <div class="next">
+              <img src="./img/baseline-left.png" alt="" class="next-images">
+            </div>
+
+            <div class="previous">
+              <img src="./img/baseline-right.png" alt="" class="previous-images">
+            </div>
+
+          </div>
+
+        </section>
+
+        <div class="posts-line"></div>
+
+        <!-- ARTICLE SECTION -->
+
+        <section class="article__section article">
+
+          <div class="article-card">
+
+            <img src="./img/article1.jpg" alt="article image" class="article-card-image" width="215" height="215">
+
+            <h4 class="article-name">
+              3 Myth That Confuse Top-Managers
+            </h4>
+
+            <p class="article-date">
+              February 19,2016
+            </p>
+
+          </div>
+
+          <div class="article-card">
+
+            <img src="./img/article2.jpg" alt="article image" class="article-card-image" width="215" height="215">
+
+            <h4 class="article-name">
+              How much do we spend on hot drinks
+            </h4>
+
+            <p class="article-date">
+              February 19,2016
+            </p>
+
+          </div>
+
+          <div class="article-card">
+
+            <img src="./img/article3.jpg" alt="article image" class="article-card-image" width="215" height="215">
+
+            <h4 class="article-name">
+              Good news you might have noticed
+            </h4>
+
+            <p class="article-date">
+              February 19,2016
+            </p>
+
+          </div>
+
+        </section>
+
+        <!-- BACKGROUND SECTION -->
+
+        <section class="background__section background">
+
+          <h2 class="background-title">
+            background
+          </h2>
+
+          <div class="background-line"></div>
+
+          <h3 class="summary-title">
+            Summary
+          </h3>
+
+          <img src="./img/tablet.png" alt="Summart image" class="summary-table-image" width="36" height="36">
+
+          <p class="summary-text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt voluptatem eligendi mollitia quia,
+            dignissimos minima sint deserunt eius cum, veniam incidunt exercitationem, et sit. Porro, ipsa soluta
+            excepturi doloribus eos similique deleniti aliquam molestiae ex, quia assumenda natus corporis voluptate
+            culpa et animi aliquid quas facilis. Labore, cumque! Ratione quas, quos nesciunt aliquid dolorem nisi
+            recusandae? Ratione, eaque nihil tempore blanditiis fuga eligendi laboriosam non iste fugit, quidem optio
+            ullam id cumque corrupti necessitatibus obcaecati pariatur nulla odio vitae officia!
+          </p>
+
+          <h3 class="experience-title">
+            Experience
+          </h3>
+
+          <img src="./img/portfolio.png" alt="Summart image" class="experience-table-image1" width="36" height="36">
+
+          <div class="experience-mode">
+
+            <div class="experience-left">
+
+              <div class="figure">
+                <div class="circle1"></div>
+                <div class="vertical-line1"></div>
+                <div class="circle2"></div>
+              </div>
+
+              <div class="univercity">
+
+                <p class="present">
+                  2000 present
+                </p>
+
+                <p class="stage">
+                  Co-founder, Chairman
+                </p>
+
+                <a href="#" class="sites">
+                  Microsoft
+                </a>
+
+                <p class="date">
+                  1992-1999
+                </p>
+
+                <p class="stage">
+                  Senior Developer
+                </p>
+
+                <a href="#" class="sites">
+                  Youtube
+                </a>
+
+              </div>
+
+            </div>
+
+            <div class="experience-right">
+
+              <img src="./img/logo-microsoft.png" alt="Microsoft logo" width="180" height="50"
+                class="advertising-microsoft">
+
+              <img src="./img/logo-youtube.png" alt="You Tube logo" width="180" height="40" class="advertising-youtube">
+
+            </div>
+
+          </div>
+
+          <h3 class="experience-title">
+            Education
+          </h3>
+
+          <img src="./img/building.png" alt="Summart image" class="experience-table-image2" width="36" height="36">
+
+          <div class="education">
+
+            <div class="figure">
+              <div class="circle1"></div>
+              <div class="vertical-line2"></div>
+              <div class="circle2"></div>
+            </div>
+
+            <div class="univercity">
+
+              <p class="present">
+                1973-1975
+              </p>
+
+              <p class="stage">
+                Harvard University
+              </p>
+
+              <a href="#" class="sites">
+                BC Computer Science
+              </a>
+
+              <p class="date">
+                1960-1973
+              </p>
+
+              <p class="stage">
+                Lakeside School, Seattle
+              </p>
+
+            </div>
+
+          </div>
+
+          <h3 class="experience-title">
+            Skills
+          </h3>
+
+          <img src="./img/lamp.png" alt="Summart image" class="experience-table-image3" width="36" height="36">
+
+          <div class="media">
+
+            <div class="skills-number">
+              74
+            </div>
+
+            <p class="media-info">
+              Social Media Marketing
+            </p>
+
+            <img src="./img/avatar.jpg" alt="Media member" width="40" height="40" class="media-person-image">
+
+            <img src="./img/avatar2.jpg" alt="Media member" width="40" height="40" class="media-person-image">
+
+            <img src="./img/avatar3.jpg" alt="Media member" width="40" height="40" class="media-person-image">
+
+            <div class="skills-member">
+              71+
+            </div>
+
+          </div>
+
+          <div class="web">
+
+            <div class="skills-number">
+              74
+            </div>
+
+            <p class="web-info">
+              Web Development
+            </p>
+
+            <img src="./img/avatar2.jpg" alt="Media member" width="40" height="40" class="media-person-image">
+
+            <img src="./img/avatar3.jpg" alt="Media member" width="40" height="40" class="media-person-image">
+
+            <img src="./img/avatar.jpg" alt="Media member" width="40" height="40" class="media-person-image">
+
+            <div class="skills-member">
+              71+
+            </div>
+
+          </div>
+
+          <h3 class="experience-title">
+            Interests
+          </h3>
+
+          <img src="./img/star.png" alt="Summart image" class="experience-table-image4" width="36" height="36">
+
+          <ul class="interests-row">
+
+            <li class="interests-items">
+              Wireless Industry
+            </li>
+
+            <li class="interests-items">
+              Photography
+            </li>
+
+            <li class="interests-items">
+              Web desegn
+            </li>
+
+            <li class="interests-items">
+              Technogohy
+            </li>
+
+          </ul>
+
+        </section>
+
+        <!-- RECOMENDATION SECTION -->
+
+        <section class="recomendation__section recomendation">
+
+          <div class="recomendation-left">
+
+            <h2 class="recomendation-title">
+              recomendation
+            </h2>
+
+          </div>
+
+          <div class="recomendation-right">
+
+            <div class="next">
+              <img src="./img/baseline-left.png" alt="" class="next-images">
+            </div>
+
+            <div class="previous">
+              <img src="./img/baseline-right.png" alt="" class="previous-images">
+            </div>
+
+          </div>
+
+        </section>
+
+        <div class="recomendation-line"></div>
+
+        <!-- ADVICE SECTION -->
+
+        <div class="advice__section advice">
+
+          <ul class="advice-list">
+            <li class="advice-card">
+              <p class="advice-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum exercitationem ad similique a sapiente
+                est accusamus alias id quia.
+              </p>
+
+              <span class="triangle1">
+                <span class="triangle1-fon"></span>
+              </span>
+
+              <div class="advicer">
+
+                <div class="advicer-left">
+
+                  <img src="./img/avatar.jpg" alt="advicer image" width="40" height="40" class="advicer-image">
+
+                </div>
+
+                <div class="advicer-right">
+
+                  <p class="advicer-name">
+                    Steve Jobs
+                  </p>
+
+                  <p class="advicer-job">
+                    Apple
+                  </p>
+
+                </div>
+
+              </div>
+
+            </li>
+
+            <li class="advice-card">
+              <p class="advice-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum exercitationem ad similique a sapiente
+                est accusamus alias id quia.
+              </p>
+
+              <span class="triangle1">
+                <span class="triangle1-fon"></span>
+              </span>
+
+              <div class="advicer">
+
+                <div class="advicer-left">
+
+                  <img src="./img/avatar2.jpg" alt="advicer image" width="40" height="40" class="advicer-image">
+
+                </div>
+
+                <div class="advicer-right">
+
+                  <p class="advicer-name">
+                    Mark Zuskerberg
+                  </p>
+
+                  <p class="advicer-job">
+                    Facebook
+                  </p>
+
+                </div>
+
+              </div>
+
+            </li>
+
+            <li class="advice-card">
+              <p class="advice-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum exercitationem ad similique a sapiente
+                est accusamus alias id quia.
+              </p>
+
+              <span class="triangle1">
+                <span class="triangle1-fon"></span>
+              </span>
+
+              <div class="advicer">
+
+                <div class="advicer-left">
+
+                  <img src="./img/avatar3.jpg" alt="advicer image" width="40" height="40" class="advicer-image">
+
+                </div>
+
+                <div class="advicer-right">
+
+                  <p class="advicer-name">
+                    Jeffrey Bezos
+                  </p>
+
+                  <p class="advicer-job">
+                    Amazon
+                  </p>
+
+                </div>
+
+              </div>
+
+            </li>
+
+          </ul>
+
+        </div>
+
+        <!-- FOLLOWING SECTION -->
+
+        <section class="following__section following">
+
+          <h2 class="following-title">
+
+            following
+
+          </h2>
+
+          <div class="following-line"></div>
+
+          <ul class="sponsors-list">
+
+            <li class="sponsors-card">
+
+              <img src="./img/logo-microsoft.png" alt="Sponsors logo" width="190" height="90" class="sponsors-logo">
+
+              <p class="sponsors-name">Microsoft</p>
+
+              <div class="observer">
+
+                <div class="add-observer">+</div>
+
+                <a href="#" class="add-observere-link">
+                  Follow
+                </a>
+
+              </div>
+
+            </li>
+
+            <li class="sponsors-card">
+
+              <img src="./img/logo-amazon.jpg" alt="Sponsors logo" width="140" height="90" class="sponsors-logo">
+
+              <p class="sponsors-name">Amazon</p>
+
+              <div class="observer">
+
+                <div class="add-observer">+</div>
+
+                <a href="#" class="add-observere-link">
+                  Follow
+                </a>
+
+              </div>
+
+            </li>
+
+            <li class="sponsors-card">
+
+              <img src="./img/logo-microsoft.png" alt="Sponsors logo" width="190" height="90" class="sponsors-logo">
+
+              <p class="sponsors-name">Microsoft</p>
+
+              <div class="observer">
+
+                <div class="add-observer">+</div>
+
+                <a href="#" class="add-observere-link">
+                  Follow
+                </a>
+
+              </div>
+
+            </li>
+
+            <li class="sponsors-card">
+
+              <img src="./img/logo-amazon.jpg" alt="Sponsors logo" width="160" height="90" class="sponsors-logo">
+
+              <p class="sponsors-name">Amazon</p>
+
+              <div class="observer">
+
+                <div class="add-observer">+</div>
+
+                <a href="#" class="add-observere-link">
+                  Follow
+                </a>
+
+              </div>
+
+            </li>
+
+          </ul>
+
+          <button class="see-button" type="submit">
+            See all (20)
+          </button>
+
+        </section>
+
+        <div class="hr-line"></div>
+
+        <p class="linkedin-info-date">Linkedin Corporation © 2014</p>
+
+      </div>
+
+      <!-- THIRD CONTAINER -->
+
+      <div class="container3">
+
+        <section class="famous__peopple">
+
+          <h2 class="famous__peopple-title">
+            people also viewed
+          </h2>
+
+          <div class="people__card">
+
+            <div class="people__card-left">
+              <img src="./img/avatar.jpg" alt="Picture of Sergey Brin" class="people-image" width="40" height="40">
+            </div>
+
+            <div class="people__card-right">
+              <p class="people-name">
+                Sergey Brin
+              </p>
+
+              <p class="people-info">
+                Google
+              </p>
+
+            </div>
+
+          </div>
+
+          <div class="people__card">
+
+            <div class="people__card-left">
+              <img src="./img/avatar2.jpg" alt="Picture of Jeffrey Bezos" class="people-image" width="40" height="40">
+            </div>
+
+            <div class="people__card-right">
+              <p class="people-name">
+                Jeffrey Bezos
+              </p>
+
+              <p class="people-info">
+                Amazon
+              </p>
+
+            </div>
+
+          </div>
+
+          <div class="people__card">
+
+            <div class="people__card-left">
+              <img src="./img/avatar3.jpg" alt="Picture of Steve Jobs" class="people-image" width="40" height="40">
+            </div>
+
+            <div class="people__card-right">
+              <p class="people-name">
+                Steve Jobs
+              </p>
+
+              <p class="people-info">
+                Apple
+              </p>
+
+            </div>
+
+          </div>
+
+          <h2 class="famous__peopple-title">
+            more influencers
+          </h2>
+
+          <div class="people__card-main">
+
+            <img src="./img/avatar3.jpg" alt="Picture of Steve Jobs" class="people-image-main" width="120" height="120">
+
+            <p class="people-name-main">
+              Steve Jobs
+            </p>
+
+            <p class="people-info-main">
+              Apple
+            </p>
+
+            <img src="./img/baseline-left.png" alt="icon baseline-left" width="24" height="24" class="left">
+
+            <img src="./img/baseline-right.png" alt="icon baseline-right" width="24" height="24" class="right">
+
+          </div>
+
+
+        </section>
+
+      </div>
+
+
+    </main>
+
+  </div>
+
+
+
+
+
+</body>
+
+</html>
